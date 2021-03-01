@@ -15,7 +15,7 @@ Flutter is used for a simple UI. Well integrated wth Firebase and ARCore.
 Works with both Android and IOS. Used for mapping physical environment and displaying navigation directions.
 
 
-- Firebase (Docs)[https://firebase.google.com/docs/firestore/quickstart?authuser=1#java]
+- Firebase [Docs](https://firebase.google.com/docs/firestore/quickstart?authuser=1#java)
 
 Simple cloud storage for ARCore Anchors and saved user routes.
 
