@@ -39,6 +39,7 @@ android {
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        minSdkVersion 14
     }
 
     buildTypes {
@@ -56,4 +57,11 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.google.ar:core:1.23.0"
+}
+
+allprojects{
+    repositories{
+        google()
+    }
 }

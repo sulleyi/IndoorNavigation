@@ -1,8 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.indoornavigation">
+    <uses-permission android:name="android.permission.CAMERA" />
    <application
         android:label="indoornavigation"
         android:icon="@mipmap/ic_launcher">
+         <!-- "AR Optional" app, contains non-AR features that can be used when
+         "Google Play Services for AR" (ARCore) is not available. -->
+         <meta-data android:name="com.google.ar.core" android:value="optional" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -39,3 +43,5 @@
             android:value="2" />
     </application>
 </manifest>
+
+
