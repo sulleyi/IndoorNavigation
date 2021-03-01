@@ -25,3 +25,4 @@ Resources:
 
 - https://youtu.be/qYet1ka1J3I
 - https://blog.raccoons.be/arcore-powered-indoor-navigation-unity
+- Incorporating Java code: https://www.calloftechies.com/2019/06/how-to-use-java-or-kotlin-with-flutter.html
