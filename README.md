@@ -6,22 +6,25 @@ This is a app designed to find the fastest routes through the ISEC building on t
 
 ## Stack
 
-- Flutter
+- Flutter [Docs](https://flutter.dev/docs)
 
 Flutter is used for a simple UI. Well integrated wth Firebase and ARCore.
 
-- ARCore
+- ARCore [Docs](https://developers.google.com/ar/reference/java/com/google/ar/core/package-summary)
 
 Works with both Android and IOS. Used for mapping physical environment and displaying navigation directions.
 
 
-- Firebase
+- Firebase [Docs](https://firebase.google.com/docs/firestore/quickstart?authuser=1#java)
+_Cloud Firestore_
+
 
 Simple cloud storage for ARCore Anchors and saved user routes.
 
 
 
-Resources:
+## Resources/Inspiration:
 
 - https://youtu.be/qYet1ka1J3I
 - https://blog.raccoons.be/arcore-powered-indoor-navigation-unity
+- Incorporating Java code: https://www.calloftechies.com/2019/06/how-to-use-java-or-kotlin-with-flutter.html
