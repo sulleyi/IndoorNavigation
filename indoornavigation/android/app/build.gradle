@@ -29,16 +29,13 @@ apply plugin: 'com.google.gms.google-services'
 
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 28
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    compileOptions {
-        sourceCompatability 1.8
-        targetCompatability 1.8
-    }
+  
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
